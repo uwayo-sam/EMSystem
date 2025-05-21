@@ -2,7 +2,7 @@
 
 ---
 
-
+**CREATORS**: samuel uwayo && tuyizere adeline
 
 # Employee Management System Documentation
 
@@ -12,7 +12,7 @@ This is a simple website to manage employee information. It allows administrator
 
 ## How to Use the System
 
-![](file:///C:/wamp/www/EMSystem/images/page4.PNG)
+![](./images/page4.PNG)
 
 ### 1. Login Page
 
@@ -28,7 +28,7 @@ This is a simple website to manage employee information. It allows administrator
 
 ### 2. Sign Up Page
 
-![](file:///C:/wamp/www/EMSystem/images/page5.PNG)
+![](./images/page5.PNG)
 
 - To create a new account:
   - Enter your full name
@@ -39,7 +39,7 @@ This is a simple website to manage employee information. It allows administrator
 
 ### 3. Dashboard (Main Page)
 
-![](file:///C:/wamp/www/EMSystem/images/page1.PNG)
+![](./images/page1.PNG)
 
 After logging in, you'll see:
 
@@ -58,7 +58,7 @@ After logging in, you'll see:
 
 ### 4. Adding a New Employee
 
-![](file:///C:/wamp/www/EMSystem/images/page2.PNG)
+![](./images/page2.PNG)
 
 Click the option to add a new employee and fill in:
 
@@ -75,7 +75,7 @@ Click the option to add a new employee and fill in:
 
 ### 5. Updating Employee Information
 
-![](file:///C:/wamp/www/EMSystem/images/page3.PNG)
+![](./images/page3.PNG)
 
 When you want to update an employee's details:
 
