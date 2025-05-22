@@ -9,8 +9,16 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sign up</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- google font import -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!-- /google font import -->
+
    <style>
         body{
+            font-family: "Quantico", sans-serif;
             background-image: url('./images/bg.jpg');
             background-size: cover;
             background-position: center;
@@ -18,7 +26,7 @@ session_start();
         }
      </style>
 </head>
-<body class='text-white flex flex-col gap-6 justify-center items-center w-[100vw] h-[100vh]'>
+<body class='text-white flex flex-col gap-6 justify-center items-center w-[100vw] h-[100vh] uppercase'>
     
     <form action="./backend/auth/signup.php" class="flex flex-col gap-3 items-center backdrop-blur-sm border-2 border-gray-500 rounded-xl py-10 px-5" method="post">
         <h1 class="title">Sign Up</h1>

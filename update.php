@@ -56,9 +56,17 @@ if(isset($_POST["name"]) && isset($_POST["E_id"]) && $_POST["DOB"] && isset($_PO
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UPDATE</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- google font import -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!-- /google font import -->
+
         <style>
          body{
             background: linear-gradient(rgba(0,0,0,0.7)),url('./images/bg1.jpg');
+            font-family: "Quantico", sans-serif;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -69,7 +77,7 @@ if(isset($_POST["name"]) && isset($_POST["E_id"]) && $_POST["DOB"] && isset($_PO
         }
      </style>
 </head>
-<body class='text-white flex  flex-col items-center'>
+<body class='text-white flex  flex-col items-center uppercase'>
     <form method="POST" class="flex flex-col gap-6 justify-center w-[50vw]">
         <h1 class="text-3xl uppercase font-bold text-center text-gray-400">UPDATE EMPLOYEE</h1>
         <div>

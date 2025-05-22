@@ -45,17 +45,26 @@ if(isset($_POST["name"]) && isset($_POST["E_id"]) && $_POST["DOB"] && isset($_PO
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>create</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!-- google font import -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!-- /google font import -->
+
+
     <style>
         body{
-            background: linear-gradient(rgba(0,0,0,0.1)),url('./images/bg1.jpg');
+            background: linear-gradient(rgba(0,0,0,0.5)),url('./images/bg1.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
             height: 100vh;
+            font-family: "Quantico", sans-serif;
         }
      </style>
 </head>
-<body class='text-white flex justify-center items-center'>
+<body class='text-white flex justify-center items-center uppercase'>
     <form method="POST" class="flex flex-col gap-6 mt-30 w-[50vw] justify-center">
         <h1 class="text-3xl uppercase font-bold text-center text-gray-400">NEW EMPLOYEE</h1>
         <div class="flex gap-4 justify-between">

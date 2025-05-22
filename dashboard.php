@@ -33,6 +33,13 @@ if(isset($_GET['search']) && !empty($_GET['search'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+     <!-- google font import -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!-- /google font import -->
+
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <style>
         body{
@@ -41,18 +48,20 @@ if(isset($_GET['search']) && !empty($_GET['search'])) {
             background-position: center;
             background-repeat: no-repeat;
             height: 100vh;
+            font-family: "Quantico", sans-serif;
+
         }
      </style>
 </head>
 
-<body class='text-white flex flex-col gap-6 items-center'>
+<body class='text-white flex flex-col gap-6 items-center uppercase'>
     <div class="w-full flex justify-between items-center px-10 py-5">
         <?php if($_SESSION['user']['role'] == 'admin'){ echo "<a class='px-6 py-3 bg-gradient-to-r before:from-[#424242] to-[#1d1d1d] rounded-xl flex justify-center border-2 border-[#777777]' href='./create'>create</a>";} ?>
       
         <h1 class="font-bold text-3xl uppercase">dashBoard</h1>
         <div class="flex gap-4 items-center">
             <h1><?Php echo $_SESSION['user']['name'];?></h1>
-        <a href="./logout" class="border-2 border-[#777777] px-5 py-2 rounded-lg">logout</a>
+        <a href="./logout" class="border-2 border-[#777777] px-5 py-2 rounded-lg flex gap-3 items-center"><h2>SIGNOUT</h2>    <i class="fa fa-sign-out" aria-hidden="true"></i></a>
         </div>
     </div>
 
